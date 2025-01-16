@@ -1,3 +1,7 @@
+import DarazLogo from "../assets/daraz-logo.png";
+import AmazonLogo from "../assets/amazon-logo.png";
+import FoodpandaLogo from "../assets/foodpanda-logo.png";
+
 export const sampleOrders = {
 	daraz: [
 		{
@@ -188,4 +192,10 @@ export const sampleOrders = {
 		{ orderId: 324, customerName: "Jack", amount: "$100", status: "Shipped" },
 		{ orderId: 325, customerName: "Kim", amount: "$90", status: "Delivered" },
 	],
+};
+
+export const companies = {
+	daraz: { name: "daraz", logo: DarazLogo },
+	foodpanda: { name: "foodpanda", logo: FoodpandaLogo },
+	amazon: { name: "amazon", logo: AmazonLogo },
 };
