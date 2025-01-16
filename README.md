@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Project Desc
+
+Order Made is a white-label order management platform where companies access their orders table by going to appropriate subdomain
+
+
+##  Testing Dynamic subdomain
+
+To test dynamic subdomains on local host we need to update our host file and link it with our localhost. For example /etc/hosts in linux and add 
+
+127.0.0.1 daraz.ordermade.local
+127.0.0.1 foodpanda.ordermade.local
+
+at the end of the file
+
+## How to add new companies
+
+To add new companies we can update our sample orders and companies variables in the data.ts in src/utils
